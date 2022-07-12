@@ -31,6 +31,7 @@ setup(
     version=version_read(),
     description='Krypto library for python',
     long_description=(docs_read('README.rst')),
+    long_description_content_type="text/markdown",
     url='https://github.com/subramanya-a/kryptolib',
     license='MIT license',
     author='Subramanya A',
