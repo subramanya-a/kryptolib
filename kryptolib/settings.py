@@ -9,9 +9,9 @@ app_name = 'kryptolib'
 # ------------------------------------------------------------------------------
 # Version Number
 # ------------------------------------------------------------------------------
-major_version = "1"
+major_version = "0"
 minor_version = "0"
-patch_version = "0"
+patch_version = "1"
 
 # ------------------------------------------------------------------------------
 # Debug Flag (switch to False for production release code)
