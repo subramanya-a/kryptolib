@@ -42,4 +42,4 @@ Please submit a [new issue report on the GitHub repository](https://github.com/s
 - [Subramanya A](https://github.com/subramanya-a/) (@Subramanya.a)
 
 ---
-[MIT License](https://github.com/subramanya-a/kryptolib/blob/master/docs/LICENSE) | Built with the [Kryptolib](https://pypi.python.org/pypi/Kryptolib)
+[MIT License](https://github.com/subramanya-a/kryptolib/master/docs/LICENSE) | Built with the [Kryptolib](https://pypi.python.org/pypi/Kryptolib)
