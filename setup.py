@@ -37,8 +37,14 @@ setup(
     author='Subramanya A',
     author_email='subramanya.opensource@gmail.com',
     platforms=['any'],
-    packages=find_packages(include=['kryptolib']),
-    package_dir={'.': 'kryptolib'},
+    packages=find_packages(include=["kryptolib", "kryptolib.*"]),
+    # package_dir={'.': 'kryptolib'},
+    package_data={
+        "kryptolib": [
+            # Include all EdDSA algorithums in wheels by default.
+            "EdDSA/*",
+        ],
+    },
     install_requires=[],
     keywords='crypto,cryptography,security,DSA, signature, EdDSA, RFC_8032',
     include_package_data=True,
